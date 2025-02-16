@@ -32,8 +32,10 @@ export default function RootLayout({
         <div className="w-screen absolute z-10 top-0">
           <Navbar />
         </div>
-        {children}
-        <div className="w-screen absolute z-10 bottom-0">
+        <div className="w-screen pt-16">
+          {children}
+        </div>
+        <div className="w-screen">
           <Footer />
         </div>
       </body>
