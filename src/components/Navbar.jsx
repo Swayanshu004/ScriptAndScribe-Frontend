@@ -11,9 +11,9 @@ export default function Navbar() {
             <h1 className="text-3xl text-amber-950"><Link href="/">ScriptAndScribe</Link></h1>
             <div className="">
                 <ul className="flex items-center gap-5 font-medium text-lg">
-                    <li className="px-3 rounded-full duration-700 ease-in-out hover:bg-amber-950  hover:text-white"><Link href="/">Series</Link></li>
-                    <li className="px-3 rounded-full duration-700 ease-in-out hover:bg-amber-950  hover:text-white"><Link href="/">Shop</Link></li>
-                    <li className="p-2 rounded-full duration-700 ease-in-out hover:bg-amber-950  hover:text-white"><Link href="/"><PiShoppingCart className="text-2xl"/></Link></li>
+                    <li className="px-3 rounded-full ease-in-out hover:-translate-y-1.5 hover:font-bold duration-500"><Link href="/series">Series</Link></li>
+                    <li className="px-3 rounded-full ease-in-out hover:-translate-y-1.5 hover:font-bold duration-500"><Link href="/shop">Shop</Link></li>
+                    <li className="p-2 rounded-full ease-in-out hover:-translate-y-1.5 hover:font-bold duration-500"><Link href="/cart"><PiShoppingCart className="text-2xl"/></Link></li>
                 </ul>
             </div>
         </nav>

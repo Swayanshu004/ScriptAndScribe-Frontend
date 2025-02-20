@@ -12,7 +12,7 @@ export default function Home() {
       <div className="text-5xl text-amber-950 font-medium">
         <h1>Turn Your Memories into a Storybook</h1>
         <h1>A Gift to Cherish Forever!</h1>
-        <Link href={"/"} className="px-5 py-2 text-lg bg-amber-950 text-amber-100 font-bold hover:text-amber-300 duration-500 ease-in-out">Create Your Storybook</Link>
+        <Link href={"/"} className="px-5 py-2 text-lg bg-amber-950 text-amber-100 hover:scale-105 duration-500 ease-in-out">Create Your Storybook</Link>
       </div>
       <h2 className="pt-20 text-amber-950 text-3xl font-medium border-b-[1px] border-amber-900 mb-5">Our Collection</h2>
       <div className="flex flex-col gap-10 md:gap-5 md:flex-row justify-between items-center">
@@ -63,7 +63,7 @@ export default function Home() {
         <div className="text-right mt-2 hover:-translate-x-4 ease-in-out duration-500 ">See All..</div>
       </Link>
       <Link href={"/"} 
-      className="px-5 py-2 flex items-center gap-5 w-fit text-lg bg-amber-950 text-amber-100 font-bold hover:text-amber-300 duration-500 ease-in-out">Create Your Own</Link>
+      className="px-5 py-2 flex items-center gap-5 w-fit text-lg bg-amber-950 text-amber-100 hover:scale-105 duration-500 ease-in-out">Create Your Own</Link>
       <div>
         <h2 className="pt-20 text-amber-950 text-3xl font-medium border-b-[1px] border-amber-900 mb-5">Gifting Option For</h2>
         <div className="flex flex-col gap-10 md:gap-0 md:flex-row items-center justify-around">
