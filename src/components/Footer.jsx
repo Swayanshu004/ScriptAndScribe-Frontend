@@ -10,7 +10,7 @@ export default function Footer() {
       <div className={`${forum.className}`}>
         <div className="flex flex-col md:flex-row items-start justify-between md:text-left">
           <div>
-            <h3 className="text-lg font-light mb-1">STORYCRAFT</h3>
+            <h3 className="font-bold text-4xl mb-1 hover:text-amber-600">ScriptAndScribe</h3>
             <p className="text-gray-600 text-sm">Crafting timeless narratives</p>
           </div>
           <div>
