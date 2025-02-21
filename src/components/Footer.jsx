@@ -17,11 +17,6 @@ export default function Footer() {
             <h4 className="font-light mt-5 md:mt-0">Explore</h4>
             <ul className="space-y-1 text-sm">
               <li>
-                <Link href="/collections" className="text-neutral-600 hover:text-neutral-900">
-                  Collections
-                </Link>
-              </li>
-              <li>
                 <Link href="/process" className="text-neutral-600 hover:text-neutral-900">
                   Process
                 </Link>

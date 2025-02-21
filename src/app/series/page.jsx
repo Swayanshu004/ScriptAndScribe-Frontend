@@ -2,13 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { HiCursorClick } from "react-icons/hi";
-import { Forum } from 'next/font/google';
 
-const forum = Forum({ subsets: ['latin'], weight: ['400'] });
 
 function page() {
   return (
-    <div className={`${forum.className} min-h-screen px-10 bg-amber-100`}>
+    <div className="min-h-screen px-10 bg-amber-100">
         <div>
             <h2 className="pt-10 text-amber-950 text-3xl font-medium ">Create Your Own Series of Book</h2>
             <p className='text-amber-700 border-b-[1px] border-amber-900 pb-1 mb-5'>Customise according to your personal story and charecter</p>

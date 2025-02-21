@@ -2,14 +2,11 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
 import { HiCursorClick } from "react-icons/hi";
-import { Forum } from 'next/font/google';
-
-const forum = Forum({ subsets: ['latin'], weight: ['400'] });
 
 function page() {
   return (
     <div>
-        <div className={`${forum.className} min-h-screen px-10 bg-amber-100`}>
+        <div className="min-h-screen px-10 bg-amber-100">
             <div>
                 <h2 className="pt-10 text-amber-950 text-3xl font-medium ">Create Your Own Book</h2>
                 <p className='text-amber-700 border-b-[1px] border-amber-900 pb-1 mb-5'>Customise according to your personal story and charecter</p>
@@ -19,7 +16,7 @@ function page() {
             </div>
             <h2 className="pt-10 text-amber-950 text-3xl font-medium border-b-[1px] border-amber-900 mb-5">Our Prebuild Book Collection</h2>
             <div className="flex flex-col gap-10 md:gap-5 md:flex-row justify-between items-center">
-            <div className="w-56 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
+            <div className="w-60 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
                 <Image 
                 src={`/image.jpg`}
                 width={1000}
@@ -27,7 +24,7 @@ function page() {
                 alt="picture"
                 />
             </div>
-            <div className="w-56 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
+            <div className="w-60 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
                 <Image 
                 src={`/image2.jpg`}
                 width={1000}
@@ -35,7 +32,7 @@ function page() {
                 alt="picture"
                 />
             </div>
-            <div className="w-56 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
+            <div className="w-60 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
                 <Image 
                 src={`/image3.jpg`}
                 width={1000}
@@ -43,7 +40,7 @@ function page() {
                 alt="picture"
                 />
             </div>
-            <div className="w-56 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
+            <div className="w-60 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
                 <Image 
                 src={`/image4.jpg`}
                 width={1000}
@@ -51,7 +48,7 @@ function page() {
                 alt="picture"
                 />
             </div>
-            <div className="w-56 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
+            <div className="w-60 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
                 <Image 
                 src={`/image5.jpg`}
                 width={1000}
