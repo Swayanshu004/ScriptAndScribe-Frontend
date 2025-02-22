@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="w-56 h-fit border-amber-950 border-[1px] bg-white overflow-hidden">
           <Image 
-          src={`/image3.jpg`}
+          src={`/image5.jpg`}
           width={1000}
           height={1000}
           alt="picture"
@@ -52,7 +52,7 @@ export default function Home() {
         </div>
         <div className="w-56 h-fit border-amber-950 border-[1px] bg-white overflow-hidden">
           <Image 
-          src={`/image5.jpg`}
+          src={`/image3.jpg`}
           width={1000}
           height={1000}
           alt="picture"
@@ -68,18 +68,36 @@ export default function Home() {
       className="px-5 py-2 flex items-center gap-5 w-fit text-lg bg-amber-950 text-amber-100 hover:scale-105 duration-500 ease-in-out">Create Your Own</Link>
       <div>
         <h2 className="pt-20 text-amber-950 text-3xl font-medium border-b-[1px] border-amber-900 mb-5">Gifting Option For</h2>
-        <div className="flex flex-col gap-10 md:gap-0 md:flex-row items-center justify-around">
-        <div className="w-56 h-32 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-5xl hover:border-amber-100 duration-1000 ease-in-out">
+        <div className="flex flex-col gap-10 md:gap-10 md:flex-row flex-wrap items-center">
+        <div className="w-52 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-5xl hover:border-amber-100 duration-300 ease-in-out">
           <h2 className="text-amber-950 font-semibold">Childrens</h2>
         </div>
-        <div className="w-56 h-32 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-5xl hover:border-amber-100 duration-1000 ease-in-out">
+        <div className="w-44 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-5xl hover:border-amber-100 duration-300 ease-in-out">
           <h2 className="text-amber-950 font-semibold">Couples</h2>
         </div>
-        <div className="w-56 h-32 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-5xl hover:border-amber-100 duration-1000 ease-in-out">
+        <div className="w-56 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-4xl hover:border-amber-100 duration-300 ease-in-out">
+          <h2 className="text-amber-950 font-semibold">Teachers</h2>
+        </div>
+        <div className="w-40 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-5xl hover:border-amber-100 duration-300 ease-in-out">
+          <h2 className="text-amber-950 font-semibold">School</h2>
+        </div>
+        <div className="w-56 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-4xl hover:border-amber-100 duration-300 ease-in-out">
+          <h2 className="text-amber-950 font-semibold">Siblings</h2>
+        </div>
+        <div className="w-56 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-4xl hover:border-amber-100 duration-300 ease-in-out">
+          <h2 className="text-amber-950 font-semibold">Employee</h2>
+        </div>
+        <div className="w-56 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-4xl hover:border-amber-100 duration-300 ease-in-out">
+          <h2 className="text-amber-950 font-semibold">Grand Parents</h2>
+        </div>
+        <div className="w-56 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-4xl hover:border-amber-100 duration-300 ease-in-out">
+          <h2 className="text-amber-950 font-semibold">Newlyweds</h2>
+        </div>
+        <div className="w-40 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-5xl hover:border-amber-100 duration-300 ease-in-out">
           <h2 className="text-amber-950 font-semibold">Friends</h2>
         </div>
-        <div className="w-56 h-32 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-4xl hover:border-amber-100 duration-1000 ease-in-out">
-          <h2 className="text-amber-950 font-semibold">Grand Parents</h2>
+        <div className="w-56 h-20 py-4 flex items-center justify-center bg-transparent border-amber-700 border-[2px] overflow-hidden text-3xl hover:text-4xl hover:border-amber-100 duration-300 ease-in-out">
+          <h2 className="text-amber-950 font-semibold">Parents</h2>
         </div>
       </div>
       </div>

@@ -34,7 +34,7 @@ function page() {
             </div>
             <div className="w-60 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
                 <Image 
-                src={`/image3.jpg`}
+                src={`/image5.jpg`}
                 width={1000}
                 height={1000}
                 alt="picture"
@@ -50,7 +50,7 @@ function page() {
             </div>
             <div className="w-60 h-fit border-amber-950 border-[1px] bg-white overflow-hidden hover:scale-105 duration-700">
                 <Image 
-                src={`/image5.jpg`}
+                src={`/image3.jpg`}
                 width={1000}
                 height={1000}
                 alt="picture"
