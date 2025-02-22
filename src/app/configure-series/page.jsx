@@ -339,6 +339,10 @@ function page(){
                             )}
                         </div>
                         <input type="text" className="px-3 py-2 w-5/6 bg-amber-100 mb-10 border-[1px] focus:border-[3px] border-amber-950" placeholder="Special Note for Your Special" name="story" id="story" />
+                        
+                        <button 
+                        type="submit"
+                        className="w-5/6 py-2 flex items-center justify-center gap-5 text-lg font-bold bg-amber-950 text-amber-100 hover:scale-105 duration-500 ease-in-out">Add to Cart</button>
                     </form>
                 </div>
             </div>
